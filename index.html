@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing_page</title>
 </head>
 <body>
 
     <!-- Start of Header-->
     <header id="header">
-        <img src="logo.png" alt="logo" id="header-img">
+        <div class="logo">
+            <img src="logo.png" alt="logo" id="header-img">
+        </div>
         <nav id="nav-bar">
             <ul class="nav-links">
                 <li><p><a href="#Features" class="nav-link">Header link one</a></p></li>
-                <li><p><a href="#video" class="nav-link">Header link two</a></p></li>
+                <li><p><a href="#frame" class="nav-link">Header link two</a></p></li>
                 <li><p><a href="#boxes" class="nav-link">Header link three</a></p></li>
             </ul>
         </nav>
@@ -21,18 +24,20 @@
 
     <!-- End of Header-->
 
+    
+
 
      <!-- Start of Main-->
-    <main>
+    <main id="page-wrapper">
         <!-- Start of Sections-->
 
         <!-- Section one-->
 
         <section id="Form">
             <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
-                <label for="email">SOMETHING</label>
+                <h2>SOMETHING</h2>
                 <input name="email" type="email" id="email" placeholder="Enter your email address" required>
-                <button type="submit" id="submit">GET STARTED</button>
+                <input type="submit" id="submit" value="GET STARTED">
             </form>
         </section>
 
@@ -41,17 +46,14 @@
         <section id="Features">
             <div class="container">
                 <div class="feat">
-                    <i class="fas fa-magic fa-3x"></i>
                     <h3>Tell Us Your Idea</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum animi modi pariatur debitis. Eaque ab deleniti iste voluptate vero voluptas molestiae. Velit cum expedita earum, quos voluptas blanditiis reiciendis?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum animi modi pariatur debitis. Eaque ab deleniti iste voluptate vero voluptas molestiae.</p>
                 </div>
                 <div class="feat">
-                    <i class="far fa-gem fa-3x"></i>
                     <h3>We Will Do All The Work</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum animi modi pariatur debitis. Eaque ab deleniti iste voluptate vero voluptas molestiae. Velit cum expedita earum, quos voluptas blanditiis reiciendis?</p>
                 </div>
                 <div class="feat">
-                    <i class="fas fa-globe-asia fa-3x"></i>
                     <h3>Your Product is Worldwide</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum animi modi pariatur debitis. Eaque ab deleniti iste voluptate vero voluptas molestiae. Velit cum expedita earum, quos voluptas blanditiis reiciendis?</p>
                 </div>
@@ -60,7 +62,7 @@
 
         <!-- Section three -->
 
-        <section id="video">
+        <section id="frame">
             <div class="video-container">
                 <iframe src="" id="video" allowfullscreen></iframe>
             </div>
